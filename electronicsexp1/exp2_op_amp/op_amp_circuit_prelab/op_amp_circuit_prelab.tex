@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{geometry}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+\usepackage{CJKutf8}
+\geometry{top=5mm, left=30mm, a4paper}
+
+
+
+
+\title{Operational Amplifier Circuits Prelab}
+\author{梁程捷 (B11901136), 吳奕娃 (B11901080)}
+\date{}
+
+
+\begin{document}
+\begin{CJK*}{UTF8}{bkai}
+\maketitle
+%=========Inverting OP-Amp Circuit=================
+\section{Inverting OP-Amp Circuit}
+\textbf{Aim: Measure the output waveforms of  Inverting OP-Amp circuits in different frequencies with sinusoidal inputs.}\\
+$v_{i} = 2 \sin(2\pi ft)$, \hspace{2mm}$f = 1$ \unit{\kilo\hertz},\hspace{2mm} $R_1 = 1$ \unit{\kilo\ohm},\hspace{2mm} $R_2 = 2$ \unit{\kilo\ohm}
+
+
+%=======Circuit======
+\begin{figure}[h]
+    \centering
+    \begin{circuitikz}[american]
+    \draw (0,0) node[op amp] (amp) {}; 
+    \draw (amp.-) -- ++(-1,0) coordinate(a) to  [R, -,l=$R_1$] ++(-3,0) to [V, v=$V_i$] ++(0,-2) node[ground]{};
+    \draw (a) ++(-4,0) to [open, v=$CH1$] ++(0,-2) node[ground]{};
+    \draw (amp.+) -- ++(-1,0) to  [short, -] ++(0,-1.5) node[ground]{};
+    \draw (a) to [short, *-] ++(0,2) to  [R, -, l=$R_2$] ++(4,0) -- ++(0,-2.5)  coordinate(b) -- (amp.out)
+    (b) to [short, *-o] ++(1,0) node[anchor = south]{$V_o$} to [open, v=$CH2$] ++(0,-2) node[ground]{};
+    \draw [->](0, 0.5) to ++(0,1) node[anchor = south]{$+15V$};
+    \draw [->](0, -0.5) to ++(0,-1) node[anchor = north]{$-15V$};
+    \end{circuitikz}
+\end{figure}
+
+\textbf{Procedure:}\\
+1. For $f = 1$ \unit{\kilo\hertz}, measure the input (CH 1) and output (CH 2) waveforms.\\
+2. Repeat the measurement again in $f = 500 \sim 500$ \unit{\kilo\hertz} and make the magnitude Bode plot.\\
+3. From the result, observe whether a phase shift occur in the circuit.
+
+
+%=========Non-Inverting OP-Amp Circuit=================
+\section{Non-Inverting OP-Amp Circuit}
+\textbf{Aim: Measure the output waveforms of  Non-inverting OP-Amp circuits in different frequencies with sinusoidal inputs.}\\
+$v_{i} = 2 \sin(2\pi ft)$, \hspace{2mm}$f = 1$ \unit{\kilo\hertz},\hspace{2mm} $R_1 = 1$ \unit{\kilo\ohm},\hspace{2mm} $R_2 = 2$ \unit{\kilo\ohm}
+
+
+%=======Circuit======
+\begin{figure}[h]
+    \centering
+    \begin{circuitikz}[american]
+    \draw (0,0) node[op amp] (amp) {}; 
+    \draw (amp.-) -- ++(-1,0) coordinate(a) to  [R, -,l=$R_1$] ++(-3,0) to [short, -] ++(0,-1.5) node[ground]{};
+    \draw (amp.+) -- ++(-1,0) to [V, v=$V_i$] ++(0,-2) node[ground]{};
+    \draw (amp.+) ++(-2,0) to [open, v=$CH1$] ++(0,-2) node[ground]{};
+    \draw (a) to [short, *-] ++(0,2) to  [R, -, l=$R_2$] ++(4,0) -- ++(0,-2.5)  coordinate(b) -- (amp.out)
+    (b) to [short, *-o] ++(1,0) node[anchor = south]{$V_o$} to [open, v=$CH2$] ++(0,-2) node[ground]{};
+    \draw [->](0, 0.5) to ++(0,1) node[anchor = south]{$+15V$};
+    \draw [->](0, -0.5) to ++(0,-1) node[anchor = north]{$-15V$}; 
+    \end{circuitikz}
+\end{figure}
+
+\textbf{Procedure:}\\
+1. For $f = 1$ \unit{\kilo\hertz}, measure the input (CH 1) and output (CH 2) waveforms.\\
+2. Repeat the measurement again in $f = 500 \sim 500$ \unit{\kilo\hertz} and make the magnitude Bode plot.\\
+3. From the result, observe whether a phase shift occur in the circuit.
+
+\end{CJK*}
+\end{document}

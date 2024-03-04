@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{geometry}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+\usepackage{CJKutf8}
+\geometry{top=5mm, left=30mm, a4paper}
+
+
+
+
+\title{Integrator and Differentiator Prelab}
+\author{梁程捷 (B11901136), 吳奕娃 (B11901080)}
+\date{}
+
+
+\begin{document}
+\begin{CJK*}{UTF8}{bkai}
+\maketitle
+%=========Inverting OP-Amp Circuit=================
+\section{Integrator}
+\textbf{Aim: Measure the output waveforms of Integrator circuits with triangle, square and sinusoidal input waves.}\\
+$R = 1$ \unit{\kilo\ohm} or $10$ \unit{\kilo\ohm}, $C = 0.1$ \unit{\micro\farad}
+
+%=======Circuit======
+\begin{figure}[h]
+    \centering
+    \begin{circuitikz}[american]
+    \draw (0,0) node[op amp] (amp) {}; 
+    \draw (amp.-) -- ++(-1,0) coordinate(a) to  [R, -,l=$R_1$] ++(-3,0) to [V, v=$V_i$] ++(0,-2) node[ground]{};
+    \draw (a) ++(-4,0) to [open, v=$CH1$] ++(0,-2) node[ground]{};
+    \draw (amp.+) -- ++(-1,0) to  [short, -] ++(0,-1.5) node[ground]{};
+    \draw (a) to [short, *-] ++(0,2) to  [C, -, l=$C$] ++(4,0) -- ++(0,-2.5)  coordinate(b) -- (amp.out)
+    (b) to [short, *-o] ++(1,0) node[anchor = south]{$V_o$} to [open, v=$CH2$] ++(0,-2) node[ground]{};
+    \end{circuitikz}
+\end{figure}
+
+%=========Non-Inverting OP-Amp Circuit=================
+\section{Differentiator}
+\textbf{Aim: Measure the output waveforms of Differentiator circuits with triangle, square and sinusoidal input waves.}\\
+$R = 470$ \unit{\ohm}, $C = 0.1$ \unit{\micro\farad}
+
+
+%=======Circuit======
+\begin{figure}[h]
+    \centering
+    \begin{circuitikz}[american]
+        \draw (0,0) node[op amp] (amp) {}; 
+        \draw (amp.-) -- ++(-1,0) coordinate(a) to  [C, -,l=$C$] ++(-3,0) to [V, v=$V_i$] ++(0,-2) node[ground]{};
+        \draw (a) ++(-4,0) to [open, v=$CH1$] ++(0,-2) node[ground]{};
+        \draw (amp.+) -- ++(-1,0) to  [short, -] ++(0,-1.5) node[ground]{};
+        \draw (a) to [short, *-] ++(0,2) to  [R, -, l=$R$] ++(4,0) -- ++(0,-2.5)  coordinate(b) -- (amp.out)
+        (b) to [short, *-o] ++(1,0) node[anchor = south]{$V_o$} to [open, v=$CH2$] ++(0,-2) node[ground]{};
+ 
+    \end{circuitikz}
+\end{figure}
+
+\end{CJK*}
+\end{document}

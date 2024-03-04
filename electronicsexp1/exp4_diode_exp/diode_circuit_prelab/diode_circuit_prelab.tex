@@ -1,0 +1,126 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{geometry}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+\usepackage{CJKutf8}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{subcaption}
+\geometry{top=5mm, left=30mm, a4paper}
+
+\title{Diode Circuits Prelab}
+\author{梁程捷 (B11901136)， 吳奕娃 (B11901080)}
+\date{}
+
+
+\begin{document}
+\begin{CJK*}{UTF8}{bkai}
+
+\maketitle
+%===========Diode Circuit================
+\section{Diode Circuits}
+\textbf{Aim: Measure the output waveforms of Diode circuits  with sinusoidal inputs.}\\
+$v_{s} = 6 \sin(2\pi ft)$ for Silicon, \hspace{2mm} $v_{s} = 12 \sin(2\pi ft)$ for Zener, \hspace{2mm} $R_L = 10$ \unit{\kilo\ohm}
+
+
+%=======Circuit======
+\begin{figure}[h]
+    \centering
+    \begin{circuitikz}[american]
+    \draw [-latex] (1,4.5) -- (3,4.5);
+    \draw (2, 4.5) node[above] {$i_D$};
+    \draw
+(0,4)   to [D, o-*, v=$v_D$]                (4,4)
+        to [R, *-*, l=$R_L$,v=$v_O$(CH 2)] (4,0)
+        to [short, -o]                 (0,0)
+(4,4)   to [short, -o]               ++(1,0)
+(4,0)   to [short, -o]               ++(1,0)
+(0,4)   to [open, v=$v_S$(CH 1)]    (0,0);   
+    \end{circuitikz}
+\end{figure}
+
+\textbf{Procedure:}\\
+1. For $f = 1$ \unit{\kilo\hertz}, measure the input (CH 1) and output (CH 2) waveforms \textbf{in Y-t mode and X-Y mode} respectively.\\
+2. For $f = 1$ \unit{\kilo\hertz}, estimate the cut-in voltage($v_D$) of the Si-based diode. \\
+3. For $f = 200$ \unit{\kilo\hertz}, measure the input (CH 1) and output (CH 2) waveforms \textbf{X-Y mode}.\\
+4. For $f = 1$ \unit{\kilo\hertz}, replace the Si diode with the \textbf{Zener Diode}, and achieve its \textbf{i-v} curve. \\
+
+\textbf{*Precaution*}\\
+1. Change the \textbf{coupling mode} from \textbf{ac to dc} for \textbf{CH 2}. \\
+2. Check the \textbf{probe scale} of \textbf{CH 1 and CH 2} both at \textbf{1x}. \\
+
+
+%=========Effects of a capacitor on the rectifier=======
+\section{Effects of a Capacitor on the Rectifier}
+\textbf{Aim: Measure the output waveforms of Rectifier circuit with a Capacitor with sinusoidal inputs.}\\
+
+$v_I = 6 \sin(2\pi ft)$, \hspace{2mm} $f = 60$ \unit{\hertz}, \\
+Case 1. $R = 10$ \unit{\kilo\ohm}, \hspace{2mm} $C=0.1$ \unit{\micro\farad} (104) \\
+Case 2. $R = 100$ \unit{\kilo\ohm}, \hspace{1mm} $C=0.1$ \unit{\micro\farad} (104) \\
+Case 3. $R = 1$ \unit{\mega\ohm}, \hspace{2mm} $C=0.2$ \unit{\micro\farad} (104 $||$ 104) \\
+
+%=======Circuit======
+\begin{figure}[h]
+    \centering
+    \begin{circuitikz}[american]
+    \draw
+(0,4)   to [D, o-*, l=D]    (3,4)
+        to [C, -, l=C]    (3,0)
+        to [short, -o]      (0,0)
+(0,4)   to [V, v=$V_I$]     (0,0)
+(-1,4)  to [open, v=$CH1$]  ++(0,-4)
+(3,4)   to [short, *-*]     (5,4)
+        to [R, -, l_=R]    (5,0)
+        to [short, *-*]     (3,0) 
+(5,4)   to [short, *-o]     (6,4)
+        to [open, v=$v_O(CH 2)$] (6,0)
+        to [short, o-*]     (5,0); 
+    \end{circuitikz}
+\end{figure}
+
+\textbf{Procedure:}\\
+1. Measure the input (CH 1) and output (CH 2) waveforms \textbf{in Y-t mode}.\\
+2. Estimate the \textbf{conduction interval  $\Delta$t} and the peak-to-peak \textbf{ripple voltage $V_r$}. \\
+3. Make a conclusion according to the experimental results.\\
+\vspace{2mm}
+
+\textbf{*Precaution*}\\
+Change the \textbf{coupling mode} from \textbf{ac to dc} for \textbf{CH 2}. \\
+
+%======rectifier circuit=========
+\section{Voltage Regulator}
+\textbf{Aim: Measure the regulator effect of a zener diode.}\\
+$V_i = 9$ \unit{\volt} (DC), \hspace{2mm} $R_1 = 10$ \unit{\kilo\ohm},\hspace{2mm} $V_z < 5$ \unit{\volt}
+
+%======circuit=============
+\begin{figure}[h]
+    \centering
+    \begin{circuitikz}[american]
+    \draw
+(0,4)   to [open, v=$V_{i}$]     (0,0)
+        to [short, o-]           (3,0)
+        to [zD, -, l=$V_z$]    (3,4)
+        to [R, -o, l=$R_1$]      (0,4)
+(3,4)   to [short, *-*]     (5,4)
+        to [vR, -, l_=$VR$]    (5,0)
+        to [short, *-*]     (3,0) 
+(5,4)   to [short, *-o]     (7,4)
+        to [open, v=$V_O$]  (7,0)
+        to [short, o-*]     (5,0); 
+    \draw [->](0.5, 4.5) to ++(1,0) node[anchor = south east]{$I_1$};
+    \draw [->](3.5, 3.5) to ++(0,-1) node[anchor = south west]{$I_Z$};
+    \draw [->](5.5, 3.5) to ++(0,-1) node[anchor = south west]{$I_2$};
+    \end{circuitikz}
+\end{figure}
+
+\textbf{Procedure:}\\
+1. For VR = 2 \unit{\kilo\ohm}, 20 \unit{\kilo\ohm}, measure $I_1$, $I_2$, $I_z$ and $V_0$.\\
+2. For VR =  400 \unit{\kilo\ohm},  600 \unit{\kilo\ohm},  800 \unit{\kilo\ohm},  1 \unit{\mega\ohm}, measure $V_o$, select one among these to measure $I_1$, $I_2$ and $I_z$\\
+3. Make a conclusion according to the experimental results.
+
+
+\end{CJK*}
+\end{document}
