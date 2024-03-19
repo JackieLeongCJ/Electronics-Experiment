@@ -1,0 +1,90 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{geometry}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+\usepackage{CJKutf8}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{subcaption}
+\geometry{top=5mm, left=30mm, a4paper}
+
+
+
+
+\title{MOS-Based Differential Circuits Report}
+\author{梁程捷 (B11901136), 吳奕娃 (B11901080)}
+\date{}
+
+
+\begin{document}
+\begin{CJK*}{UTF8}{bkai}
+\maketitle
+%========DC Analysis=================
+\section{DC Analysis}
+\begin{equation*}
+    I_1 = 0.129 \text{ \unit{\milli\ampere}}, \, I_2 = 0.156 \text{ \unit{\milli\ampere}}, \, I = 0.280 \text{ \unit{\milli\ampere}}
+\end{equation*}
+\textbf{$I_1 \ne I_2$} due to mismatch in circuit components and transistor parameters.\\
+\textbf{$I_1 + I_2 = I$} because of \textit{Kirchhoff's Current Law}.\\
+
+\begin{figure}[h]
+\begin{center}
+
+    \begin{subfigure}[b]{0.2\textwidth}
+        \includegraphics[width=\textwidth]{int_circuit.jpg}
+        \caption{Integrator cicuit}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{int_trig.jpg}
+        \caption{Triangle wave input}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{int_square.jpg}
+        \caption{Square wave input}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{int_sin.jpg}
+        \caption{Sinusoidal wave input}
+    \end{subfigure}
+\end{center}   
+\end{figure}
+
+
+%=========Non-Inverting OP-Amp Circuit=================
+\section{Differentiator}
+
+
+\begin{figure}[h]
+    \begin{center}
+    
+        \begin{subfigure}[b]{0.2\textwidth}
+            \includegraphics[width=\textwidth]{diff_circuit.jpg}
+            \caption{Differentiator circuit}
+        \end{subfigure}
+        ~
+        \begin{subfigure}[b]{0.3\textwidth}
+            \includegraphics[width=\textwidth]{diff_trig.jpg}
+            \caption{Triangle wave input}
+        \end{subfigure}
+    
+        \begin{subfigure}[b]{0.3\textwidth}
+            \includegraphics[width=\textwidth]{diff_square.jpg}
+            \caption{Square wave input}
+        \end{subfigure}
+        ~
+        \begin{subfigure}[b]{0.3\textwidth}
+            \includegraphics[width=\textwidth]{diff_sin.jpg}
+            \caption{Sinusoidal wave input}
+        \end{subfigure}
+    \end{center}   
+    \end{figure}
+    
+
+\end{CJK*}
+\end{document}
