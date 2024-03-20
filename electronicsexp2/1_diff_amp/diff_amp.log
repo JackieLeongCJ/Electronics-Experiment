@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.14)  10 MAR 2024 01:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.14)  20 MAR 2024 12:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -652,15 +652,15 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 422.52252pt, 89.62709pt)
-* v-part:(T,H,B)=(14.22636pt, 729.41383pt, 101.40665pt)
+* h-part:(L,W,R)=(56.9055pt, 450.97528pt, 89.62709pt)
+* v-part:(T,H,B)=(28.45274pt, 715.18745pt, 101.40665pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=422.52252pt
-* \textheight=729.41383pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
-* \topmargin=-95.04362pt
+* \textwidth=450.97528pt
+* \textheight=715.18745pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-80.81725pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -711,143 +711,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
  []
 
 
-LaTeX Warning: File `int_circuit.jpg' not found on input line 37.
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+<Vo1_and_Vo2.jpg, id=10, 1174.3875pt x 879.285pt>
+File: Vo1_and_Vo2.jpg Graphic file (type jpg)
+<use Vo1_and_Vo2.jpg>
+Package pdftex.def Info: Vo1_and_Vo2.jpg  used on input line 41.
+(pdftex.def)             Requested size: 180.38736pt x 135.05342pt.
+<Vod.jpg, id=11, 1174.3875pt x 879.285pt>
+File: Vod.jpg Graphic file (type jpg)
+<use Vod.jpg>
+Package pdftex.def Info: Vod.jpg  used on input line 46.
+(pdftex.def)             Requested size: 180.38736pt x 135.05342pt.
+
+Overfull \hbox (41.98035pt too wide) in paragraph at lines 55--68
+[][] 
+ []
+
+<Bode_plot_Ad.png, id=12, 362.007pt x 217.467pt>
+File: Bode_plot_Ad.png Graphic file (type png)
+<use Bode_plot_Ad.png>
+Package pdftex.def Info: Bode_plot_Ad.png  used on input line 73.
+(pdftex.def)             Requested size: 235.30176pt x 141.35185pt.
+
+Overfull \hbox (9.81412pt too wide) in paragraph at lines 73--74
+[][] 
+ []
 
 
-c:/Users/jacki/Desktop/Jackie/LaTeX/electronics_exp/electronicsexp2/1_diff_amp/diff_amp.tex:37: Package pdftex.def Error: File `int_circuit.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 ...raphics[width=\textwidth]{int_circuit.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `int_trig.jpg' not found on input line 42.
-
-
-c:/Users/jacki/Desktop/Jackie/LaTeX/electronics_exp/electronicsexp2/1_diff_amp/diff_amp.tex:42: Package pdftex.def Error: File `int_trig.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 ...degraphics[width=\textwidth]{int_trig.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `int_square.jpg' not found on input line 47.
-
-
-c:/Users/jacki/Desktop/Jackie/LaTeX/electronics_exp/electronicsexp2/1_diff_amp/diff_amp.tex:47: Package pdftex.def Error: File `int_square.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 ...graphics[width=\textwidth]{int_square.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `int_sin.jpg' not found on input line 52.
-
-
-c:/Users/jacki/Desktop/Jackie/LaTeX/electronics_exp/electronicsexp2/1_diff_amp/diff_amp.tex:52: Package pdftex.def Error: File `int_sin.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...udegraphics[width=\textwidth]{int_sin.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `diff_circuit.jpg' not found on input line 67.
-
-
-c:/Users/jacki/Desktop/Jackie/LaTeX/electronics_exp/electronicsexp2/1_diff_amp/diff_amp.tex:67: Package pdftex.def Error: File `diff_circuit.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 ...aphics[width=\textwidth]{diff_circuit.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `diff_trig.jpg' not found on input line 72.
-
-
-c:/Users/jacki/Desktop/Jackie/LaTeX/electronics_exp/electronicsexp2/1_diff_amp/diff_amp.tex:72: Package pdftex.def Error: File `diff_trig.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.72 ...egraphics[width=\textwidth]{diff_trig.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `diff_square.jpg' not found on input line 77.
-
-
-c:/Users/jacki/Desktop/Jackie/LaTeX/electronics_exp/electronicsexp2/1_diff_amp/diff_amp.tex:77: Package pdftex.def Error: File `diff_square.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.77 ...raphics[width=\textwidth]{diff_square.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `diff_sin.jpg' not found on input line 82.
-
-
-c:/Users/jacki/Desktop/Jackie/LaTeX/electronics_exp/electronicsexp2/1_diff_amp/diff_amp.tex:82: Package pdftex.def Error: File `diff_sin.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 ...degraphics[width=\textwidth]{diff_sin.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (74.12772pt too wide) in paragraph at lines 53--77
+[]$[]$  $[]$ 
+ []
 
 [1
 
-{C:/Users/jacki/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (diff_amp.aux) ) 
+{C:/Users/jacki/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Vo1_and_Vo2.jpg> <./Vod.jpg> <./Bode_plot_Ad.png>] (diff_amp.aux) ) 
 Here is how much of TeX's memory you used:
- 37762 strings out of 476315
- 954103 string characters out of 5787196
- 1857068 words of memory out of 5000000
- 57769 multiletter control sequences out of 15000+600000
- 522414 words of font info for 71 fonts, out of 8000000 for 9000
+ 37531 strings out of 476315
+ 948745 string characters out of 5787196
+ 1863068 words of memory out of 5000000
+ 57552 multiletter control sequences out of 15000+600000
+ 523492 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,7n,103p,510b,1176s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu54.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu59.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5a.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu63.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu68.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu7a.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on diff_amp.pdf (2 pages, 143273 bytes).
+ 99i,12n,103p,510b,1400s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu54.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu59.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5a.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu63.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu68.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu7a.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on diff_amp.pdf (1 page, 437517 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
+ 119 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 52 words of extra memory for PDF output out of 10000 (max. 10000000)
 
