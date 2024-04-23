@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1713889526 "c:/Users/jacki/Desktop/Jackie/LaTeX/electronics_exp/electronicsexp2/4_CMOS_operational_amp/CMOS_operational_amp_prelab.tex" "CMOS_operational_amp_prelab.pdf" "CMOS_operational_amp_prelab" 1713889529 0
+["pdflatex"] 1713890575 "c:/Users/jacki/Desktop/Jackie/LaTeX/electronics_exp/electronicsexp2/4_CMOS_operational_amp/CMOS_operational_amp_prelab.tex" "CMOS_operational_amp_prelab.pdf" "CMOS_operational_amp_prelab" 1713890578 0
   "C:/Users/jacki/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1711038651 169141 f3ef260ad9c002d8df32820aa71b2ffb ""
   "C:/Users/jacki/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1686752142 23183117 eb584b1606b2bedc4f7d84387933a926 ""
   "C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/tfm/arphic/bkaiu/bkaiu54.tfm" 1194303600 1284 4c08898486f6819be0eeb12e777b8c13 ""
@@ -183,10 +183,10 @@
   "C:/Users/jacki/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "CD4007_IC.png" 1713887890 119094 a63af40e603fd12da6157ae4e025cd9a ""
   "CMOS_complicated.png" 1713887890 124818 cfef66b3b70f302a1ee8698996cd850d ""
-  "CMOS_operational_amp_prelab.aux" 1713889528 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "CMOS_operational_amp_prelab.tex" 1713889526 2184 621f57ba2b5108e267cccf4a28b323b0 ""
-  "CMOS_simple.png" 1713887890 124818 cfef66b3b70f302a1ee8698996cd850d ""
-  "c:/Users/jacki/Desktop/Jackie/LaTeX/electronics_exp/electronicsexp2/4_CMOS_operational_amp/CMOS_operational_amp_prelab.tex" 1713889526 2184 621f57ba2b5108e267cccf4a28b323b0 ""
+  "CMOS_operational_amp_prelab.aux" 1713890578 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "CMOS_operational_amp_prelab.tex" 1713890575 2184 621f57ba2b5108e267cccf4a28b323b0 ""
+  "CMOS_simple.png" 1713890571 146931 095797d59dd3712b6054432a7c55b1f5 ""
+  "c:/Users/jacki/Desktop/Jackie/LaTeX/electronics_exp/electronicsexp2/4_CMOS_operational_amp/CMOS_operational_amp_prelab.tex" 1713890575 2184 621f57ba2b5108e267cccf4a28b323b0 ""
   (generated)
   "CMOS_operational_amp_prelab.aux"
   "CMOS_operational_amp_prelab.log"

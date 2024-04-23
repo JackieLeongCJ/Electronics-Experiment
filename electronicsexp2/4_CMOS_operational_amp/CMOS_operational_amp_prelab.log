@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.14)  24 APR 2024 00:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.14)  24 APR 2024 00:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -710,24 +710,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--31
 
  []
 
-<CMOS_simple.png, id=10, 520.94624pt x 357.7365pt>
+<CMOS_simple.png, id=10, 696.80325pt x 460.72125pt>
 File: CMOS_simple.png Graphic file (type png)
 <use CMOS_simple.png>
 Package pdftex.def Info: CMOS_simple.png  used on input line 36.
-(pdftex.def)             Requested size: 190.13383pt x 130.56454pt.
-<CMOS_complicated.png, id=11, 520.94624pt x 357.7365pt>
+(pdftex.def)             Requested size: 190.13383pt x 125.71101pt.
+<CMOS_complicated.png, id=12, 520.94624pt x 357.7365pt>
 File: CMOS_complicated.png Graphic file (type png)
 <use CMOS_complicated.png>
 Package pdftex.def Info: CMOS_complicated.png  used on input line 41.
 (pdftex.def)             Requested size: 190.13383pt x 130.56454pt.
-<CD4007_IC.png, id=12, 507.39563pt x 351.56343pt>
+<CD4007_IC.png, id=13, 507.39563pt x 351.56343pt>
 File: CD4007_IC.png Graphic file (type png)
 <use CD4007_IC.png>
 Package pdftex.def Info: CD4007_IC.png  used on input line 55.
 (pdftex.def)             Requested size: 190.13383pt x 131.7394pt.
 [1
 
-{C:/Users/jacki/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./CMOS_simple.png (PNG copy)> <./CMOS_complicated.png (PNG copy)> <./CD4007_IC.png>] (CMOS_operational_amp_prelab.aux) ) 
+{C:/Users/jacki/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./CMOS_simple.png> <./CMOS_complicated.png (PNG copy)> <./CD4007_IC.png>] (CMOS_operational_amp_prelab.aux) ) 
 Here is how much of TeX's memory you used:
  37512 strings out of 476315
  948897 string characters out of 5787196
@@ -737,9 +737,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,8n,103p,541b,1189s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu54.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu59.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5a.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu63.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu68.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu7a.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on CMOS_operational_amp_prelab.pdf (1 page, 482687 bytes).
+Output written on CMOS_operational_amp_prelab.pdf (1 page, 502115 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  52 words of extra memory for PDF output out of 10000 (max. 10000000)
 
