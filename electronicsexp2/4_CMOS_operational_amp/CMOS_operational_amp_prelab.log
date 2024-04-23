@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.14)  24 APR 2024 00:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.14)  24 APR 2024 00:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/jacki/Desktop/Jackie/LaTeX/electronics_exp/electronicsexp2/3_feedback_circuit/feedback_circuit_report/feedback_circuit_report.tex
-(c:/Users/jacki/Desktop/Jackie/LaTeX/electronics_exp/electronicsexp2/3_feedback_circuit/feedback_circuit_report/feedback_circuit_report.tex
+**c:/Users/jacki/Desktop/Jackie/LaTeX/electronics_exp/electronicsexp2/4_CMOS_operational_amp/CMOS_operational_amp_prelab.tex
+(c:/Users/jacki/Desktop/Jackie/LaTeX/electronics_exp/electronicsexp2/4_CMOS_operational_amp/CMOS_operational_amp_prelab.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-04-20> (C:\Users\jacki\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -539,92 +539,92 @@ Package caption Info: New subtype `subfigure' on input line 239.
 Package caption Info: New subtype `subtable' on input line 239.
 \c@subtable=\count317
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 17.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 19.
  (C:\Users\jacki\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count318
 \l__pdf_internal_box=\box78
-) (feedback_circuit_report.aux)
-\openout1 = `feedback_circuit_report.aux'.
+) (CMOS_operational_amp_prelab.aux)
+\openout1 = `CMOS_operational_amp_prelab.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
  (C:\Users\jacki\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count319
@@ -652,15 +652,15 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 450.97528pt, 89.62709pt)
-* v-part:(T,H,B)=(28.45274pt, 715.18745pt, 101.40665pt)
+* h-part:(L,W,R)=(85.35826pt, 422.52252pt, 89.62709pt)
+* v-part:(T,H,B)=(14.22636pt, 729.41383pt, 101.40665pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=450.97528pt
-* \textheight=715.18745pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-80.81725pt
+* \textwidth=422.52252pt
+* \textheight=729.41383pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-95.04362pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -681,7 +681,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 (C:\Users\jacki\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 17.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 19.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -692,49 +692,54 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (C:\Users\jacki\AppData\Local\Programs\MiKTeX\tex/latex/cjk/UTF8\UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
  (C:\Users\jacki\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
  (C:\Users\jacki\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for C70+bkai on input line 19.
+LaTeX Font Info:    Trying to load font information for C70+bkai on input line 22.
  (C:\Users\jacki\AppData\Local\Programs\MiKTeX\tex/latex/cjk/UTF8\c70bkai.fd
 File: c70bkai.fd 2021/10/16 4.8.5
 ) (C:\Users\jacki\AppData\Local\Programs\MiKTeX\tex/latex/cjk/UTF8\c70bkai.fdx
 File: c70bkai.fdx 2021/10/16 4.8.5
 )
-Overfull \hbox (33.6546pt too wide) in paragraph at lines 25--41
-[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 25--31
+
  []
 
-<Abp_bode_plot.png, id=10, 362.007pt x 217.467pt>
-File: Abp_bode_plot.png Graphic file (type png)
-<use Abp_bode_plot.png>
-Package pdftex.def Info: Abp_bode_plot.png  used on input line 46.
-(pdftex.def)             Requested size: 199.10446pt x 119.60721pt.
-
-Overfull \hbox (59.12772pt too wide) in paragraph at lines 23--54
-$[]$  $[]$
- []
-
+<CMOS_simple.png, id=10, 520.94624pt x 357.7365pt>
+File: CMOS_simple.png Graphic file (type png)
+<use CMOS_simple.png>
+Package pdftex.def Info: CMOS_simple.png  used on input line 36.
+(pdftex.def)             Requested size: 190.13383pt x 130.56454pt.
+<CMOS_complicated.png, id=11, 520.94624pt x 357.7365pt>
+File: CMOS_complicated.png Graphic file (type png)
+<use CMOS_complicated.png>
+Package pdftex.def Info: CMOS_complicated.png  used on input line 41.
+(pdftex.def)             Requested size: 190.13383pt x 130.56454pt.
+<CD4007_IC.png, id=12, 507.39563pt x 351.56343pt>
+File: CD4007_IC.png Graphic file (type png)
+<use CD4007_IC.png>
+Package pdftex.def Info: CD4007_IC.png  used on input line 55.
+(pdftex.def)             Requested size: 190.13383pt x 131.7394pt.
 [1
 
-{C:/Users/jacki/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Abp_bode_plot.png>] (feedback_circuit_report.aux) ) 
+{C:/Users/jacki/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./CMOS_simple.png (PNG copy)> <./CMOS_complicated.png (PNG copy)> <./CD4007_IC.png>] (CMOS_operational_amp_prelab.aux) ) 
 Here is how much of TeX's memory you used:
- 37768 strings out of 476315
- 952387 string characters out of 5787196
- 1866068 words of memory out of 5000000
- 57725 multiletter control sequences out of 15000+600000
- 531524 words of font info for 103 fonts, out of 8000000 for 9000
+ 37512 strings out of 476315
+ 948897 string characters out of 5787196
+ 1856068 words of memory out of 5000000
+ 57538 multiletter control sequences out of 15000+600000
+ 521900 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,103p,557b,1341s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu30.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu4e.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu50.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu52.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu54.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu56.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu59.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5a.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5b.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5c.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5e.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5f.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu60.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu61.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu62.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu63.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu66.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu67.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu68.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu6a.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu6b.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu6c.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu71.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu76.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu77.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu7a.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu7d.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu7f.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu82.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu89.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu8d.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu8f.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu90.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu93.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu95.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu96.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu9a.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiuff.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on feedback_circuit_report.pdf (1 page, 317455 bytes).
+ 99i,8n,103p,541b,1189s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu54.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu59.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu5a.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu63.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu68.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu7a.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jacki/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on CMOS_operational_amp_prelab.pdf (1 page, 482687 bytes).
 PDF statistics:
- 279 PDF objects out of 1000 (max. 8388607)
+ 90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 170 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 52 words of extra memory for PDF output out of 10000 (max. 10000000)
 

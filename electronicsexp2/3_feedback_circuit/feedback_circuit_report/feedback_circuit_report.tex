@@ -24,9 +24,9 @@
 \begin{table}[H]
 \begin{tabular}{|c|c|c||c|c|c|}
     \hline
-    $f$ (\unit{\kilo\hertz}) &  $V_i$ (V)& $V_o$ (V) & $f$ (\unit{\hertz}) &  $V_i$ (V)& $V_o$ (V)\\
+    $f$ (\unit{\kilo\hertz}) &  $V_i$ (V)& $V_o$ (V) & $f$ (\unit{\kilo\hertz}) &  $V_i$ (V)& $V_o$ (V)\\
     \hline\hline
-    0.5	    & 2.040 & 0.12 & 15     & 0.360 & 1.32   \\
+    0.5	    & 2.040 & 0.12 & \textbf{\underline{{15}}} & \textbf{\underline{{0.360}}} & \textbf{\underline{{1.32}}}   \\
     1       & 2.060 & 0.22 & 18     & 0.360 & 1.20  \\
     2	    & 2.040 & 0.42 & 19     & 0.560 & 1.70  \\
     3	    & 2.040 & 0.63 & 20     & 0.560 & 1.52   \\
@@ -47,13 +47,15 @@
         \caption{Bode Plot of $A_{BP}$}
     \end{figure}
 \end{minipage}
-\vspace{3mm}
-\textbf{Midband gain $A_{max} = \frac{1.24}{0.4}$ = 3.1 V/V}, \textbf{$f_{3dB}$ = 365 \unit{\kilo\hertz}}
+\vspace{3mm}\\
+\textbf{Maximum voltage gain $A_{max} = \frac{1.32}{0.36}$ = 3.67 V/V}, \textbf{$f_{L3dB,BP}$ = 12 \unit{\kilo\hertz}}, \textbf{$f_{H3dB,BP}$ = 20.5 \unit{\kilo\hertz}},\\
+\vspace*{1mm}\\
+\textbf{Bandwidth BW = 20.5 - 12 = 8.5 \unit{\kilo\hertz}}
 
 \section*{Reflections}
 \subsection*{梁程捷}
-這次實驗我們兩個電路都有做，differential amplifier最後的結果發現是low pass，不是band pass，因爲沒有耦合的大電容，就跟課程一樣。
+這次實驗的電路比較複雜，電線相互交錯，有時電阻還不小心短路，接了好幾次才成功，下次實驗要多練幾次。
 \subsection*{吳奕娃}
-這次的實驗做得還算順利，唯一比較麻煩的地方是在第一個實驗，做低頻率的時候示波器上的訊號不太穩，造成量取數值上的困難。
+這次的實驗感覺比以往困難不少，花了很多時間才做完，希望之後有機會練習以熟悉電路的接法。
 \end{CJK*}
 \end{document}
